@@ -7,13 +7,17 @@ class Animal:
         print(voice + "!")
 
 class Cat(Animal):
-    def __init(self,numLegs):
-        self.name
+    def __init__(self,name,age,numLegs):
+        Animal.__init__(self, name,age)
+        self.numLegs = numLegs
+
+cat = Cat("Kitty",10,4)
+
+print("The cat name is " + cat.name + "and I have "+str(cat.numLegs)+" legs!")
 
 dog = Animal('Bobby',10)
 
-print(dog.name)
-print(dog.age)
+print("My dog name is " +dog.name+ "and I am "+str(dog.age)+" years old.")
 dog.speak('bark')
 
 dog.age = 50
