@@ -18,3 +18,8 @@ q.put(2)
 
 print(q.get())
 print(q.get())
+
+a = [1,2]
+b = [3,4]
+
+print(a+b)
