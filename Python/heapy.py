@@ -74,3 +74,10 @@ class MinHeap():
                 self.swap(index,smallerChildIndex)
 
             index = smallerChildIndex
+
+# a = MinHeap()
+# a.add(5)
+# a.add(3)
+# print(a.poll())
+# print(a.poll())
+# print(a.poll())
