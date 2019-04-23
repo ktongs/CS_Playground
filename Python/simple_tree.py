@@ -31,17 +31,17 @@ class Node():
             else:
                 return False
 
-b = Node(10)
-b.insert(5)
-b.insert(15)
-b.insert(12)
-b.insert(8)
-b.insert(4)
-print(b.left.right.data)
-print(b.search(8))
-print(b.search(4))
-print(b.search(10))
-print(b.search(12))
-print(b.search(11))
+# b = Node(10)
+# b.insert(5)
+# b.insert(15)
+# b.insert(12)
+# b.insert(8)
+# b.insert(4)
+# print(b.left.right.data)
+# print(b.search(8))
+# print(b.search(4))
+# print(b.search(10))
+# print(b.search(12))
+# print(b.search(11))
 
 
