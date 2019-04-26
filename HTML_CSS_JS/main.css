@@ -1,0 +1,24 @@
+body {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    @font-face{
+
+    }
+    .main-container {
+    	background-color:lightblue;
+    }
+
+    
+    .content-body{
+    }
+
+    @media (max-width: 1024px) {
+        .main-container{
+            padding-top: 1%;
+        }
+        
+    }
+}
