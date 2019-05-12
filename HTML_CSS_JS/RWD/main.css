@@ -1,0 +1,19 @@
+.inline{
+	/*display:inline;*/
+	float:left;
+	color:grey;
+	background-color: black;
+}
+
+.inline li,p{
+	/*display:inline;*/
+	float:left;
+	width:33%;
+	min-width:130px;
+}
+
+@media screen and (max-width: 320px){
+	.container{
+		background-color: red;
+	}
+}
