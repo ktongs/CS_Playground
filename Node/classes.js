@@ -1,3 +1,5 @@
+const readline = require('readline');
+
 class animal{
 	constructor(legs,voice,name){
 		this.legs = legs;
@@ -21,4 +23,13 @@ console.log(dog.name);
 console.log(dog.status);
 dog.speak(dog.voice);
 
+r1 = readline.createInterface({
+	input:process.stdin,
+	output:process.stdout
+});
+
+r1.question("Enter fish voice: ",(answer)=>{
+	fish.voice = answer;
+	fish.speak(fish.voice);
+})
 fish.speak(fish.voice);
